@@ -43,9 +43,9 @@ Evaluate the model with test accuracy, confusion matrix, classification report, 
 
 ## PROGRAM
 
-### Name: ALLEN JOVETH P
+### Name: Pradeep Kumar G
 
-### Register Number: 212223240007
+### Register Number: 212223230150
 
 ```python
 print(f"Total number of test samples: {len(test_dataset)}")
@@ -95,8 +95,8 @@ def train_model(model, train_loader,test_loader,num_epochs=10):
         print(f'Epoch [{epoch+1}/{num_epochs}], Train Loss: {train_losses[-1]:.4f}, Validation Loss: {val_losses[-1]:.4f}')
 
     # Plot training and validation loss
-    print("Name: Allen Joveth P")
-    print("Register Number:  212223240007")
+    print("Name: Pradeep Kumar G")
+    print("Register Number: 212223230150")
     plt.figure(figsize=(8, 6))
     plt.plot(range(1, num_epochs + 1), train_losses, label='Train Loss', marker='o')
     plt.plot(range(1, num_epochs + 1), val_losses, label='Validation Loss', marker='s')
@@ -111,19 +111,23 @@ def train_model(model, train_loader,test_loader,num_epochs=10):
 ### OUTPUT
 
 ## Training Loss, Validation Loss Vs Iteration Plot
-<img width="616" height="487" alt="Screenshot 2026-05-18 113531" src="https://github.com/user-attachments/assets/eaa84475-dcb5-4c08-9585-28b68c13df76" />
+<img width="870" height="731" alt="image" src="https://github.com/user-attachments/assets/0a4f8ca0-ee4c-47a3-a32f-d6f9e8ef4326" />
 
 
 ## Confusion Matrix
-<img width="597" height="505" alt="Screenshot 2026-05-18 113958" src="https://github.com/user-attachments/assets/308cacae-ecd2-4cf9-82d1-9cfe66e9861b" />
+<img width="809" height="759" alt="image" src="https://github.com/user-attachments/assets/71f21a2f-ea3f-4368-a3de-d573ebe7df47" />
+
 
 
 ## Classification Report
-<img width="402" height="177" alt="image" src="https://github.com/user-attachments/assets/6ba4ad19-b144-4a11-99a6-528f905d5b66" />
+<img width="571" height="249" alt="image" src="https://github.com/user-attachments/assets/67ebd0db-deb1-42ed-9741-691e80745c8b" />
+
 
 ### New Sample Data Prediction
-<img width="299" height="324" alt="Screenshot 2026-05-18 113437" src="https://github.com/user-attachments/assets/84e537e8-6c53-4743-86fd-34b2210e84ce" />
-<img width="301" height="326" alt="Screenshot 2026-05-18 113448" src="https://github.com/user-attachments/assets/3e429635-aa13-4b35-8ac4-95904f09ca9c" />
+<img width="418" height="501" alt="image" src="https://github.com/user-attachments/assets/ef169a7c-589d-4f2c-8731-4cc34ff14ebf" />
+<img width="414" height="498" alt="image" src="https://github.com/user-attachments/assets/72ae74d1-8c19-4fa4-bbab-baf853ea4f4c" />
+
+
 
 
 ## RESULT
